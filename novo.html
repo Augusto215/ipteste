@@ -1,26 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+
 </head>
 
 <body>
 
 <p id="address"> Aracruz </p>
 
-<script language="Javascript" src="https://geoplugin.net/javascript.gp" type="text/javascript"></script>
-
-<script>
-// certifique-se de que o DOM esteja totalmente carregado antes de executar o código
-document.addEventListener("DOMContentLoaded", function() {
-  // obter o endereço IP
-  var city = geoplugin_city();
-  // selecionar o parágrafo pelo seu ID
-  var ipElement = document.getElementById("address");
-  
-  // definir o texto do parágrafo para o endereço IP
-  ipElement.innerHTML = city;
-});
-</script>
 
 </body>
 </html>
